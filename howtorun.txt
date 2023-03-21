@@ -1,0 +1,8 @@
+Open two instances of your IDE with one opening the frontend folder and the other opening the backend folder.
+
+To connect to the database you either need the Brunel VPN or be using the University's WiFi.
+
+If you cannot run the frontend, try using "npm install" to download the node_module dependencies.
+
+If you have trouble committing to GitHub or the commit takes too long, you might be committing the node_modules folder, which is several GB in size.
+Github has a file size limit so you will need to append the .gitignore file to include the node_modules folder in frontend.

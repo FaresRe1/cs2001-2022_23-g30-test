@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: #8a2be2 ;
+}
+
+.navvv{
+  background-color: #8a2be2 ;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.filters{
+  background-color: rgb(163, 96, 225);
+  color: black;
+  display: flex;
+  justify-content:center;
+  align-items: stretch;
+  align-items: center;
+  gap: 1.5rem;
+  padding:  0rem;
+}
+
+.TitleFont{
+  font-size: 2rem;
+}
+
+.navvv ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navvv a{
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.navvv li:hover{
+  background-color: gray;
+  height: 100%;
+  display: flex;
+}
+
+.navvv li:active{
+  background-color: blueviolet;
+}
+footer {
+  width: 100%;
+  padding: 0.25em;
+  background-color: rgb(92, 15, 148);
+  color: aliceblue;
+  display: grid;
+  place-content: center;
+}
+
+.FRESH {
+  background-image: url('./FRESH.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: filter 0.5s ease-in-out;
+}
+.FRESH:hover {
+  filter: brightness(0.8);
+}
+
+.TIN {
+  background-image: url('./TIN.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: filter 0.5s ease-in-out;
+  
+}
+.TIN:hover {
+  filter: brightness(0.8);
+}
+
+.COOKED {
+  background-image: url('./COOKED.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: filter 0.5s ease-in-out;
+}
+.COOKED:hover {
+  filter: brightness(0.8);
+}
+
+.FROZEN {
+  background-image: url('./FROZEN.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: filter 0.5s ease-in-out;
+}
+.FROZEN:hover {
+  filter: brightness(0.8);
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(194, 146, 227);
+  padding: 1;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  margin-right: 5%;
+  margin-top: 2.5%;
+  margin-left: 5%;
+  border-radius: 50px;
+}
+.grid-item {
+  border: 1px solid white;
+  background-color: rgb(209, 191, 226);
+  padding: 5%;
+  text-align: center;
+  font-size: 1rem;
+  height: max-content;
+  width: max-content;
+  margin: 5%;
+  border-radius: 50px;
+
+
+  
+}
+
+.button{
+  display: inline-block;
+  background-color: blueviolet;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
